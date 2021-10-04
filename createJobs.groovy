@@ -6,13 +6,13 @@ pipelineJob('pipelineJob') {
         }
     }
 }
-pipelineJob('theme-park-job') {
+pipelineJob('eRestaurant Spring Boot Web Application') {
     definition {
         cpsScm {
             scm {
                 git {
                     remote {
-                        url 'https://github.com/tkgregory/spring-boot-api-example.git'
+                        url 'https://github.com/EesaHash/eRestaurant-Manager.git'
                     }
                     branch 'master'
                 }
